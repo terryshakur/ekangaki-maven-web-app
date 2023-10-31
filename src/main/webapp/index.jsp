@@ -4,7 +4,7 @@
 
 <a href="https://ekangaki.com/online-training-schedules">Click Here To See AIT IT Training Schedules</a>
   
-  <h2> Call Us : + 01 - 240 643 1098 </h2>
+  <h2> Call Us : +1 - 240 643 1098 </h2>
 
 </body>
 </html>
