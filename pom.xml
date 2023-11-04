@@ -32,7 +32,7 @@
 	<dependencies>
 		
 		<dependency>
-			<groupId>org.json</groupId>
+			<groupId>com.mt</groupId>
 			<artifactId>json</artifactId>
 			<version>20160212</version>
 		</dependency>
