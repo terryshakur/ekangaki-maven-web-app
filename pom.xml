@@ -1,13 +1,41 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>ekangaki.njangt</groupId>
+  <groupId>ekangaki.njang</groupId>
   <artifactId>01-maven-web-app</artifactId>
   <packaging>war</packaging>
   <version>3.0-SNAPSHOT</version>
   <name>01-maven-web-app</name>
   <url>http://maven.apache.org</url>
- 
+   <properties>
+        <java.version>11</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <spring.version>5.3.6.RELEASE</spring.version>
+        <sonar.host.url>http://54.158.199.62:8081/</sonar.host.url>
+        <sonar.login>${env.SONAR_AUTH_TOKEN}</sonar.login>
+        <junit.version>5.7.2</junit.version>
+    </properties>
+  <configuration>
+    <sonar.host.url>admin</sonar.login>
+    <sonar.login>admin</sonar.login>
+    <sonar.password>admin</sonar.password>
+ </configuration>
+ <distributionManagement>
+    <repository>
+        <id>nexus</id>
+        <name>AIT-release Releases Nexus Repo</name>
+        <url>http://54.158.199.62:8081/repository/AIT-RELEASE/</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>nexus</id>
+        <name>AIt-snapshot Snapshots Nexus Repo</name>
+        <url>http://54.158.199.62:8081/repository/AIT-SNAPSHOT/</url>
+    </snapshotRepository>
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
