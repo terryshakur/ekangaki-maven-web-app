@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.ekangaki</groupId>
-	<artifactId>Afro Institute Web-application</artifactId>
+	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
@@ -12,7 +12,7 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Afro Institute</name>
+		<name>Mithun Technologies</name>
 		<url>http://ekangaki.com/</url>
 	</organization>
 
