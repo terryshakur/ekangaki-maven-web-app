@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>AIT-RELEASE</name>
-	      <url>http://54.158.199.62:8081/repository/AIT-RELEASE/</url>
+	      <url>http://100.25.111.136:8081/repository/AIT-RELEASE/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>AIT-SNAPSHOT </name>
-	      <url>http://54.158.199.62:8081/repository/AIT-SNAPSHOT/</url>
+	      <url>http://100.25.111.136:8081/repository/AIT-SNAPSHOT/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
